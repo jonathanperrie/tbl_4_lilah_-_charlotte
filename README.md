@@ -18,9 +18,9 @@ We do not have high-res images yet and may have to follow-up with NanoString peo
 
 Scripts are only for TBL but can be adapted for EPTB. 
 
-### DGE
-file1
-### Pathways
-file2
-### WGCNA 
-file3
+### GeoMx_TBL_PCA.R
+Script to generate PCA and dimensionality reduction plots with and without batch correction ([ComBat](https://bioconductor.org/packages/devel/bioc/vignettes/sva/inst/doc/sva.pdf)) 
+### GeoMx_TBL_DGE.R
+Script to run DGE for core vs mantle and identify enriched pathways 
+### GeoMx_TBL_WGCNA.R
+Script to run [WGCNA](https://www.dropbox.com/scl/fo/4vqfiysan6rlurfo2pbnk/h?rlkey=thqg8wlpdn4spu3ihjuc1kmlu&e=1&dl=0) on batch corrected counts data for 3k most variable genes
