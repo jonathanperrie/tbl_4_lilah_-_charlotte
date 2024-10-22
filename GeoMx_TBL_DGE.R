@@ -332,7 +332,9 @@ gg_path <- ggplot(path_df, aes(x = region, y = term, size = frac, color = -log10
     text = element_text(size = 20, family = "sans"),
     axis.text.y.right = element_text(size = 12),
     axis.text.x = element_text(angle = 90, vjust = 0.25, hjust = 1),
-    legend.position = "left"
+    legend.position = "left",
+    panel.background = element_rect(fill = "white", color = NA),  # Set white background
+    plot.background = element_rect(fill = "white", color = NA)    # Set plot background to white
   )
 
 ggsave(file = path_sig_output, plot = gg_path, device = "png", width=7.5,height=6, dpi = 400)
