@@ -20,7 +20,7 @@ library(ggplot2)
 # ==============================================================================
 
 raw_count_input <- "current_data/geomx_integrated_raw_data_2024.csv"
-dge_output <- "current_data/DGE_TBL.xlsx"
+dge_output <- "current_data/TBL_DGE.xlsx"
 path_sig_output <- "plots/TBL_pathways.png"
 path_excel_output <- "current_data/TBL_pathways.xlsx"
 
